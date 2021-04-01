@@ -1,0 +1,26 @@
+{
+  "name": "@live/example-hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist --ignore '**/*.spec.js,**/*.stories.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@live/babel-preset-live-node-basic": "workspace:^0.1.0",
+    "@live/example-foo": "workspace:^1.0.0",
+    "@live/simple-cli-helper": "workspace:^0.1.0"
+  },
+  "babel": {
+    "presets": [
+      "@live/babel-preset-live-node-basic"
+    ]
+  },
+  "devDependencies": {
+    "@live/tsconfig": "workspace:^0.1.0"
+  }
+}

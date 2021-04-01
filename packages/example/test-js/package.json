@@ -1,0 +1,13 @@
+{
+  "name": "test-js",
+  "version": "0.1.0",
+  "babel": {
+    "presets": [
+      "@live/babel-preset-live-node-basic"
+    ]
+  },
+  "devDependencies": {
+    "@live/babel-preset-live-node-basic": "workspace:^0.1.0",
+    "@live/tsconfig": "workspace:^0.1.0"
+  }
+}

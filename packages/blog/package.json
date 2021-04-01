@@ -1,0 +1,13 @@
+{
+  "name": "@thirtyfive/blog",
+  "version": "0.1.0",
+  "dependencies": {
+  },
+  "live": {
+    "docusaurus": {
+      "blog": {
+        "enable": true
+      }
+    }
+  }
+}

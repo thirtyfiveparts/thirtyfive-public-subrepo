@@ -1,0 +1,27 @@
+{
+  "name": "@live/example-foo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/register": "^7.10.1",
+    "@babel/runtime": "^7.10.2",
+    "@live/babel-preset-live-node-basic": "workspace:^0.1.0",
+    "regenerator-runtime": "^0.13.5"
+  },
+  "babel": {
+    "presets": [
+      "@live/babel-preset-live-node-basic"
+    ]
+  },
+  "devDependencies": {
+    "@live/tsconfig": "workspace:^0.1.0"
+  }
+}
